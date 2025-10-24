@@ -1,0 +1,27 @@
+name: dl-torch
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  # DS base
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pillow
+  - tqdm
+  - rich
+  - typer
+  - python-dotenv
+  - setuptools
+  - wheel
+  # PyTorch stack
+  - pytorch
+  - torchvision
+  - torchaudio

@@ -1,0 +1,35 @@
+name: dl-tf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  # Base DS
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - h5py
+  - opencv
+  - pillow
+  - tqdm
+  - rich
+  - typer
+  - python-dotenv
+  - setuptools
+  - wheel
+  - pip:
+      - tensorflow==2.16.1
+      - tensorflow-metal==1.1.0
+      - tensorboard
+      - keras==3.2.0
+      - tensorflow-datasets
+      - tf-models-official
+      - albumentations
+      - transformers
+      - datasets

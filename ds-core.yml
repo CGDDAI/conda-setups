@@ -1,0 +1,31 @@
+name: ds-core
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  # DS Base
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pyarrow
+  - matplotlib
+  - seaborn
+  - plotly
+  # ev UX - Work utilities
+  - rich
+  - typer
+  - tqdm
+  - black
+  - isort
+  - mypy
+  - pre-commit
+  - pip:
+      - jupyterlab-code-formatter
+

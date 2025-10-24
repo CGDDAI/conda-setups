@@ -1,0 +1,24 @@
+name: scraping
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  # Parsing / HTTP clients
+  - requests
+  - scrapy
+  - selenium
+  - beautifulsoup4
+  - lxml
+  - httpx
+  - pandas
+  - tqdm
+  - rich
+  - typer
+  - python-dotenv
+  - pip
+  - pip:
+      - playwright    # then: `playwright install` after activate env

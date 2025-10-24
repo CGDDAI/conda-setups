@@ -1,0 +1,43 @@
+name: ds-ml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  # DS Base
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - pyarrow
+  - matplotlib
+  - seaborn
+  - plotly
+  # ML algorithms
+  - xgboost
+  - lightgbm
+  # Useful utilities
+  - tqdm
+  - joblib
+  - dask
+  - sklearn-pandas
+  - missingno
+  # Extras via pip (best wheels on macOS ARM)
+  - pip
+  - pip:
+      - catboost
+      - imbalanced-learn
+      - optuna
+      - scikit-optimize
+      - shap
+      - mlflow
+      - category-encoders
+      - eli5
+      - yellowbrick
+      - pandas-profiling
+      - sweetviz
+      - flaml
+      - feature-engine

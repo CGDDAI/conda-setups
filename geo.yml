@@ -1,0 +1,31 @@
+name: geo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  # DS Base
+  - numpy
+  - pandas
+  - xarray
+  - netcdf4
+  - dask
+  - matplotlib
+  - seaborn
+  # Geo stack
+  - geopandas
+  - shapely
+  - pyproj
+  - rasterio
+  - rtree
+  - fiona
+  - cartopy
+  - pyogrio        # IO fast for vectors (GDAL-based)
+  # Utilities
+  - rich
+  - typer
+  - tqdm
+
